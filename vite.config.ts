@@ -22,7 +22,10 @@ export default defineConfig(({ mode }) => {
     };
 });
 
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
 export default defineConfig({
-  base: '/YOUR_REPO_NAME/', // Replace with your actual repo name
   plugins: [react()],
+  base: '/cluter-lab/', // Must match your repo name exactly
 })
