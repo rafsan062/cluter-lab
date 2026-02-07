@@ -1,0 +1,5 @@
+{
+  "name": "DBSCAN Visualizer",
+  "description": "An interactive, animated visualization of the DBSCAN clustering algorithm. Generate datasets like smileys and moons, tweak Epsilon and MinPoints, and watch the algorithm find clusters in real-time.",
+  "requestFramePermissions": []
+}
