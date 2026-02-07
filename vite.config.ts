@@ -21,3 +21,8 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+
+export default defineConfig({
+  base: '/YOUR_REPO_NAME/', // Replace with your actual repo name
+  plugins: [react()],
+})
